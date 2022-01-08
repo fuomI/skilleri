@@ -27,12 +27,22 @@ I installed MySQL Community local server to be able to present my project proper
 
 - SQL
 
+## Tools
+
+- MySQL workbench
+
 ## How to run?
 
 Download MySQL community server: https://dev.mysql.com/downloads/mysql/
 
 How to set up local MySQL community server: 
 https://www.youtube.com/watch?v=2HQC94la6go&t=3s&ab_channel=BlaineRobertson
+
+After the MySQL community server is up and running use MySQL workbench to access it.
+
+**Create schema -> exequte Skilleri_tablet.sql**
+
+You can test database using queries in **Skilleri_queryt.sql**.
 
 ## Skilleri schema
 ![schema](images/schema.png "schema")
