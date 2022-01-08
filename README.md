@@ -42,5 +42,14 @@ https://www.youtube.com/watch?v=2HQC94la6go&t=3s&ab_channel=BlaineRobertson
 ```sql
 SELECT * FROM instructors;
 ```
+
 ![instructors](images/instructors.png "instructors")
 
+-- **9.** INNER JOIN query - Näytä ohjaukset ja niiden ohjaajat. - Show classes and their instructors.
+```sql
+SELECT Classes.classID AS 'ID', Actiontype.name AS 'Laji', Classes.scheduled AS 'Päivämäärä', Classes.startTime AS 'Alkaa',
+Classes.endTime AS 'Loppuu', CONCAT(Instructors.fname,' ', Instructors.lname) AS 'Ohjaaja'
+FROM Classes  INNER JOIN Actiontype ON Classes.typeID = ActionType.typeID INNER JOIN Instructors ON ActionType.typeID = Instructors.typeID;
+```
+
+![innerjoin](images/innerjoin.png "innerjoin")
