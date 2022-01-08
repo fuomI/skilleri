@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=2HQC94la6go&t=3s&ab_channel=BlaineRobertson
 ## Skilleri schema
 ![schema](images/schema.png "schema")
 
-## Tables
+## Examples
 
 ```sql
 SELECT * FROM instructors;
