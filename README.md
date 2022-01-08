@@ -14,8 +14,8 @@ I installed MySQL Community local server to be able to present my project proper
 
 ## Course requirements
 
-- Database has atleast **5** tables
-- Database has atleast **4** different datatypes
+- Database has at least **5** tables
+- Database has at least **4** different datatypes
 - **10** meaningful queries to test database
 
 ## Server
