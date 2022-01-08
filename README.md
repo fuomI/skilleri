@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=2HQC94la6go&t=3s&ab_channel=BlaineRobertson
 
 After the MySQL community server is up and running use MySQL workbench to access it.
 
-**Create schema -> exequte Skilleri_tablet.sql**
+- **Create schema -> exequte Skilleri_tablet.sql**
 
 You can test database using queries in **Skilleri_queryt.sql**.
 
@@ -49,13 +49,16 @@ You can test database using queries in **Skilleri_queryt.sql**.
 
 ## Examples
 
+### Instructors table
+
 ```sql
 SELECT * FROM instructors;
 ```
 
 ![instructors](images/instructors.png "instructors")
 
--- **9.** INNER JOIN query - Näytä ohjaukset ja niiden ohjaajat. - Show classes and their instructors.
+### Inner join query - Show classes and their instructors.
+
 ```sql
 SELECT Classes.classID AS 'ID', Actiontype.name AS 'Laji', Classes.scheduled AS 'Päivämäärä', Classes.startTime AS 'Alkaa',
 Classes.endTime AS 'Loppuu', CONCAT(Instructors.fname,' ', Instructors.lname) AS 'Ohjaaja'
