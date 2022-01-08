@@ -31,9 +31,16 @@ I installed MySQL Community local server to be able to present my project proper
 
 Download MySQL community server: https://dev.mysql.com/downloads/mysql/
 
-How to set-up local MySQL community server: 
+How to set up local MySQL community server: 
 https://www.youtube.com/watch?v=2HQC94la6go&t=3s&ab_channel=BlaineRobertson
 
 ## Skilleri schema
-![schema](schema.png "schema")
+![schema](images/schema.png "schema")
+
+## Tables
+
+```sql
+SELECT * FROM instructors;
+```
+![instructors](images/instructors.png "instructors")
 
